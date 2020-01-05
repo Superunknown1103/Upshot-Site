@@ -1,12 +1,23 @@
 import React, { Component } from 'react';
 
-function HogCard() {
-   return(
-       <div>
-       <div>test</div>
-       <div>test</div>
-       </div>
-   )
+function ItemCard(props) {
+    let cardImage = require(`../images/shoe.jpg`);
+    return (
+        <div className="itemCard">
+            <div className="row innerCard">
+                    <img src={cardImage} />
+                <div className="cardHeader">
+                    {props.item.name}
+                </div>
+                <div className="cardBody">
+                    {props.item.text}
+                </div>
+                <div className="cardBuy">
+                    Buy Now
+                </div>
+            </div>
+        </div>
+    )
 }
 
-export default HogCard;
+export default ItemCard;

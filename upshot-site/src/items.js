@@ -1,8 +1,33 @@
 const items = [
     {
       id: 1,
-      name: 'Comfort Planter',
-      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      name: 'Title With Two Very Very Long Long Lines',
+      text: "And a very long description to boot. Why bother describing something with so many words?"
+    },
+    {
+      id: 2,
+      name: 'One Short Title',
+      text: "And a very long description to boot. Why bother describing something with so many words?"
+    },
+    {
+      id: 3,
+      name: 'One Short Title',
+      text: "With a short description."
+    },
+    {
+      id: 4,
+      name: 'Title With Two Very Very Long Long Lines',
+      text: "With a short description."
+    },
+    {
+      id: 5,
+      name: 'Title With Two Very Very Long Long Lines',
+      text: "And a very long description to boot. Why bother describing something with so many words?"
+    },
+    {
+      id: 6,
+      name: 'Title With Two Very Very Long Long Lines',
+      text: "And a very long description to boot. Why bother describing something with so many words?"
     }
   ];
   

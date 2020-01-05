@@ -1,10 +1,10 @@
+
 body {
   height: 100vh;
 }
 
 #root {
   background-color: #E3E2E6;
-  /* height: 100vh; */
 }
 
 .App {
@@ -23,6 +23,26 @@ body {
 .menuOptions {
   list-style: none;
   text-align: left;
+}
+
+.innerCard {
+  height: 100%;
+  justify-content: center;
+}
+
+.innerCard > img {
+  width: 100%;
+  height: 40%;
+}
+
+.cardHeader {
+  font-size: 20px;
+  text-align: center;
+}
+
+.cardBody {
+  font-weight: 100;
+  font-size: 15px;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
@@ -62,11 +82,17 @@ body {
   }
 
   #logo {
-    background: url("./images/logo-placeholder.png");
+    /* background: url("./images/logo-placeholder.png"); */
     height: 200px;
     width: 200px;
     position:absolute;
     background-color: transparent;
+    margin-left: 4%;
+  }
+
+  .topMenu {
+    position: absolute;
+    right: 20%;
   }
 
   #pageHeader {
@@ -81,10 +107,54 @@ body {
 
   .menuOptions {
     margin-left: 20%;
+    margin-top: 4%;
   }
 
   .menuOptions > li {
     padding: 2%;
+    width: 240px;
+  }
+
+  .menuOptions > li:hover {
+    background-color: brown;
+    cursor: pointer;
+    margin: 1px solid black;
+    color: white;
+  }
+
+  #topMenu {
+    margin: 15px;
+  }
+
+  .topMenuItem {
+    margin: 2px;
+    color: white;
+  }
+
+
+  #itemCardContainer {
+    display: flex;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+
+  .itemCard {
+    flex: 0 0 25%;
+    background-color: white;
+    height: 350px;
+    margin: 2%;
+    padding: 1%;
+  }
+
+  .cardBuy {
+    text-align: center;
+    background-color: #EB1A50;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    height: 30px;
   }
 }
 

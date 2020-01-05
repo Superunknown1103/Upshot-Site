@@ -9,9 +9,31 @@ export default class ItemCardContainer extends Component{
     }
     render() {
     return (
-        <div>
+        <div id="itemCardContainer">
             {this.createItemCards()}
         </div>
       )
     }
 };
+
+// function ItemCardContainer(props) { 
+//     let itemCards = [];
+//   props.itemList.forEach((item, i) =>{
+//       if((i+1) % 4 == 0 || i == 0){
+//         itemCards.push(
+//           <div className="row" >       
+//             <ItemCard item={item} />
+//           </div>
+//         )
+//       }else{
+//           itemCards.push(<ItemCard item={item} />);
+//       }
+//   });
+//   return (
+//     <React.Fragment>
+//         {itemCards}
+//     </React.Fragment>
+//   );
+// }
+
+// export default ItemCardContainer;
