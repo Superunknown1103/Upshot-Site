@@ -19,6 +19,11 @@ body {
  justify-content: center;
  margin: 0 auto;
 }
+
+.menuOptions {
+  list-style: none;
+  text-align: left;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 
@@ -72,6 +77,14 @@ body {
   body {
     max-width: 1440px;
     margin: auto;
+  }
+
+  .menuOptions {
+    margin-left: 20%;
+  }
+
+  .menuOptions > li {
+    padding: 2%;
   }
 }
 

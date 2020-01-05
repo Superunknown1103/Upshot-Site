@@ -1,29 +1,22 @@
 import React from 'react';
 import './App.css';
+import SideMenu from './Components/SideMenu.js';
+import Header from './Components/Header.js';
+import ItemCardContainer from './Components/ItemCardContainer.js'
+import items from './items.js';
 
 function App() {
   return (
     <div className="App">
       <div className='row'>
-        <div id="logo">
-
-        </div>
-       <div className="column" id="pageHeader">
-         THIS IS A HEADLINE.
-       </div>
+        <Header />
       </div>
       <div className='row 2'>
         <div className='column'>
-          <div className='menu'>
-            <ul className="menuOptions">
-
-            </ul>
-      </div>
+         <SideMenu />
         </div>
         <div className='double-column'>
-          <div className='inner-column'>
-            Some Text in Column Two
-      </div>
+         <ItemCardContainer itemList={items} />
         </div>
       </div>
     </div>
