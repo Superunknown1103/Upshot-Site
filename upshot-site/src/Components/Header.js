@@ -1,5 +1,6 @@
 import React from 'react';
 import TopMenu from './TopMenu';
+import CombinedMenu from './CombinedMenu';
 
 function Header(){
   let logo = require(`../images/logo-placeholder.png`);
@@ -14,7 +15,7 @@ function Header(){
        <div className="column" id="pageHeader">
          THIS IS A HEADLINE.
        </div>
-       
+       <CombinedMenu />
        </React.Fragment>
     )
 }
