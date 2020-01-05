@@ -1,0 +1,11 @@
+{
+  "name": "upshot-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Superunknown1103/Upshot-Project.git",
+  "author": "Bruce <superunknown1103@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-app": "^3.3.0"
+  }
+}
