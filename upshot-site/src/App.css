@@ -44,20 +44,115 @@ body {
   font-weight: 100;
   font-size: 15px;
 }
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+.topMenuItem:hover {
+    font-size: 18px;
+    cursor: pointer;
+    margin: 1px solid black;
+    color: white;
+  }
+
+
+  #itemCardContainer {
+    display: flex;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+
+  .itemCard {
+    flex: 0 0 25%;
+    background-color: white;
+    height: 350px;
+    margin: 2%;
+    padding: 1%;
+  }
+
+  .cardBuy {
+    text-align: center;
+    background-color: #EB1A50;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    height: 30px;
+  }
+
+  .cardBuy:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #EB1A50;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .headingRow {
+    background: url("./images/leaf-banner.jpg");
+  }
+
+  #pageHeader {
+    background: transparent;
+  }
+
+  .topMenu {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .itemCard {
+    flex: 0 0 10%;
+    background-color: white;
+    height: 350px;
+    margin: 2%;
+    padding: 1%;
+  }
+}
+
+
+/* tablet and phone commonalities */
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .headingRow {
+    background: url("./images/leaf-banner.jpg");
+  }
+
+  #pageHeader {
+    background: transparent;
+  }
+
+  .topMenu {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .itemCard {
+    flex: 0 0 70%;
+    margin-left: 15%;
+}
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
   .column {
     flex: 1
   }
 
   .double-column {
     flex: 2
+  }
+
+  .itemCard {
+    flex: 0 0 40%;
+    background-color: white;
+    height: 350px;
+    margin: 2%;
+    padding: 1%;
+    margin-left: 5%;
   }
 }
 
@@ -133,7 +228,7 @@ body {
   }
 
   .topMenuItem:hover {
-    background-color: brown;
+    font-size: 18px;
     cursor: pointer;
     margin: 1px solid black;
     color: white;
@@ -171,9 +266,3 @@ body {
     color: #EB1A50;
   }
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {
-
-
-} */

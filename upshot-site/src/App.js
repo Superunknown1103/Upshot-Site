@@ -8,7 +8,7 @@ import items from './items.js';
 function App() {
   return (
     <div className="App">
-      <div className='row'>
+      <div className='row headingRow'>
         <Header />
       </div>
       <div className='row 2'>
