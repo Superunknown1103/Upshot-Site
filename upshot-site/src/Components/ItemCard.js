@@ -4,7 +4,7 @@ function ItemCard(props) {
     let cardImage = require(`../images/shoe.jpg`);
     return (
         <div className="itemCard">
-            <div className="row innerCard">
+            <div className="innerCard">
                     <img src={cardImage} />
                 <div className="cardHeader">
                     {props.item.name}

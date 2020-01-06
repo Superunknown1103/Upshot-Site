@@ -28,6 +28,7 @@ body {
 .innerCard {
   height: 100%;
   justify-content: center;
+  position: relative;
 }
 
 .innerCard > img {
@@ -76,6 +77,8 @@ body {
     font-size: 18px;
     width: 100%;
     height: 30px;
+    position: absolute;
+    bottom: 0;
   }
 
   .cardBuy:hover {
@@ -110,7 +113,6 @@ body {
     padding: 1%;
   }
 }
-
 
 /* tablet and phone commonalities */
 @media only screen and (min-width: 300px) and (max-width: 768px) {
@@ -256,7 +258,7 @@ body {
 {
   position: absolute;
   width: 80vw;
-  margin: -100px 0 0 -50px;
+  margin: -100px 0 0 -65px;
   padding: 50px;
   background: #ededed;
   list-style-type: none;
