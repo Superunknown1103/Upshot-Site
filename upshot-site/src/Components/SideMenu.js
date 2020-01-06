@@ -6,11 +6,11 @@ export default function SideMenu() {
         <div>
             <div className='menu'>
                 <ul className="menuOptions">
-                    <li>Flowers</li>
-                    <li>Houseplants</li>
-                    <li>Decorative</li>
-                    <li>Seasonal</li>
-                    <li>Cacti</li>
+                    <li>Footwear</li>
+                    <li>Water Fountains</li>
+                    <li>Garage Door Openers</li>
+                    <li>Beverages</li>
+                    <li>Education</li>
                 </ul>
             </div>
         </div>
